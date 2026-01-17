@@ -1,0 +1,848 @@
+2026-01-17 06:05:39.695  INFO 13892 --- [main] c.d.local_signer.LocalSignerApplication  : Starting LocalSignerApplication v0.0.1-SNAPSHOT using Java 21.0.9 on bapun with PID 13892 (D:\Downloads\local-signer\local-signer\target\local-signer-0.0.1-SNAPSHOT.jar started by DELL in D:\Downloads\local-signer\local-signer)
+2026-01-17 06:05:39.701  INFO 13892 --- [main] c.d.local_signer.LocalSignerApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-01-17 06:05:40.831  INFO 13892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9001 (http)
+2026-01-17 06:05:40.848  INFO 13892 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-17 06:05:40.849  INFO 13892 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-01-17 06:05:40.933  INFO 13892 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-17 06:05:40.934  INFO 13892 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1154 ms
+2026-01-17 06:05:41.530  INFO 13892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9001 (http) with context path ''
+2026-01-17 06:05:41.541  INFO 13892 --- [main] c.d.local_signer.LocalSignerApplication  : Started LocalSignerApplication in 2.423 seconds (JVM running for 2.894)
+2026-01-17 06:05:50.666  INFO 13892 --- [http-nio-0.0.0.0-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-17 06:05:50.666  INFO 13892 --- [http-nio-0.0.0.0-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-17 06:05:50.666  INFO 13892 --- [http-nio-0.0.0.0-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-01-17 06:08:23.181  INFO 13892 --- [http-nio-0.0.0.0-9001-exec-9] c.d.l.service.Pkcs11ProviderService      : 🔐 PKCS11 Provider initialization started
+2026-01-17 06:08:23.181  INFO 13892 --- [http-nio-0.0.0.0-9001-exec-9] c.d.l.service.Pkcs11ProviderService      : 📄 Using PKCS11 config file: C:\pkcs11\pkcs11-watchdata.cfg
+2026-01-17 06:08:23.181  INFO 13892 --- [http-nio-0.0.0.0-9001-exec-9] c.d.l.service.Pkcs11ProviderService      : ⚙️ Configuring SunPKCS11 provider...
+2026-01-17 06:08:23.969  INFO 13892 --- [http-nio-0.0.0.0-9001-exec-9] c.d.l.service.Pkcs11ProviderService      : ✅ PKCS11 provider loaded successfully: SunPKCS11-Watchdata
+2026-01-17 06:14:05.343  INFO 7372 --- [main] c.d.local_signer.LocalSignerApplication  : Starting LocalSignerApplication v0.0.1-SNAPSHOT using Java 21.0.9 on bapun with PID 7372 (D:\Downloads\local-signer\local-signer\target\local-signer-0.0.1-SNAPSHOT.jar started by DELL in D:\Downloads\local-signer\local-signer)
+2026-01-17 06:14:05.349  INFO 7372 --- [main] c.d.local_signer.LocalSignerApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-01-17 06:14:06.469  INFO 7372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9001 (http)
+2026-01-17 06:14:06.492  INFO 7372 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-17 06:14:06.493  INFO 7372 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-01-17 06:14:06.595  INFO 7372 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-17 06:14:06.596  INFO 7372 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1174 ms
+2026-01-17 06:14:07.290  INFO 7372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9001 (http) with context path ''
+2026-01-17 06:14:07.308  INFO 7372 --- [main] c.d.local_signer.LocalSignerApplication  : Started LocalSignerApplication in 2.517 seconds (JVM running for 2.986)
+2026-01-17 06:14:08.698  INFO 7372 --- [http-nio-0.0.0.0-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-17 06:14:08.698  INFO 7372 --- [http-nio-0.0.0.0-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-17 06:14:08.698  INFO 7372 --- [http-nio-0.0.0.0-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-01-17 06:14:18.776  INFO 7372 --- [http-nio-0.0.0.0-9001-exec-2] c.d.l.service.Pkcs11ProviderService      : 🔐 PKCS11 Provider initialization started
+2026-01-17 06:14:18.777  INFO 7372 --- [http-nio-0.0.0.0-9001-exec-2] c.d.l.service.Pkcs11ProviderService      : 📄 Using PKCS11 config file: C:\pkcs11\pkcs11-watchdata.cfg
+2026-01-17 06:14:18.778  INFO 7372 --- [http-nio-0.0.0.0-9001-exec-2] c.d.l.service.Pkcs11ProviderService      : ⚙️ Configuring SunPKCS11 provider...
+2026-01-17 06:14:19.529  INFO 7372 --- [http-nio-0.0.0.0-9001-exec-2] c.d.l.service.Pkcs11ProviderService      : ✅ PKCS11 provider loaded successfully: SunPKCS11-Watchdata
+2026-01-17 06:14:19.657 ERROR 7372 --- [http-nio-0.0.0.0-9001-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+java.io.IOException: load failed
+	at jdk.crypto.cryptoki/sun.security.pkcs11.P11KeyStore.engineLoad(P11KeyStore.java:775) ~[jdk.crypto.cryptoki:na]
+	at java.base/java.security.KeyStore.load(KeyStore.java:1500) ~[na:na]
+	at com.dspace.local_signer.service.UsbTokenKeyService.loadToken(UsbTokenKeyService.java:19) ~[classes!/:0.0.1-SNAPSHOT]
+	at com.dspace.local_signer.service.SigningOrchestratorService.signPdf(SigningOrchestratorService.java:29) ~[classes!/:0.0.1-SNAPSHOT]
+	at com.dspace.local_signer.controller.SignerController.sign(SignerController.java:60) ~[classes!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.security.UnrecoverableKeyException: null
+	at jdk.crypto.cryptoki/sun.security.pkcs11.P11KeyStore.engineLoad(P11KeyStore.java:774) ~[jdk.crypto.cryptoki:na]
+	... 56 common frames omitted
+Caused by: javax.security.auth.login.FailedLoginException: null
+	at jdk.crypto.cryptoki/sun.security.pkcs11.SunPKCS11.login(SunPKCS11.java:1696) ~[jdk.crypto.cryptoki:na]
+	at jdk.crypto.cryptoki/sun.security.pkcs11.P11KeyStore.login(P11KeyStore.java:878) ~[jdk.crypto.cryptoki:na]
+	at jdk.crypto.cryptoki/sun.security.pkcs11.P11KeyStore.engineLoad(P11KeyStore.java:765) ~[jdk.crypto.cryptoki:na]
+	... 56 common frames omitted
+Caused by: sun.security.pkcs11.wrapper.PKCS11Exception: CKR_PIN_INCORRECT
+	at jdk.crypto.cryptoki/sun.security.pkcs11.wrapper.PKCS11.C_Login(Native Method) ~[jdk.crypto.cryptoki:na]
+	at jdk.crypto.cryptoki/sun.security.pkcs11.SunPKCS11.login(SunPKCS11.java:1683) ~[jdk.crypto.cryptoki:na]
+	... 58 common frames omitted
+
+2026-01-17 06:14:31.114  INFO 7372 --- [http-nio-0.0.0.0-9001-exec-3] c.d.l.service.Pkcs11ProviderService      : 🔐 PKCS11 Provider initialization started
+2026-01-17 06:14:31.114  INFO 7372 --- [http-nio-0.0.0.0-9001-exec-3] c.d.l.service.Pkcs11ProviderService      : ✅ PKCS11 provider already loaded: SunPKCS11-Watchdata
+2026-01-17 06:18:42.642  INFO 6860 --- [main] c.d.local_signer.LocalSignerApplication  : Starting LocalSignerApplication v0.0.1-SNAPSHOT using Java 21.0.9 on bapun with PID 6860 (D:\Downloads\local-signer\local-signer\target\local-signer-0.0.1-SNAPSHOT.jar started by DELL in D:\Downloads\local-signer\local-signer)
+2026-01-17 06:18:42.646  INFO 6860 --- [main] c.d.local_signer.LocalSignerApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-01-17 06:18:43.761  INFO 6860 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9001 (http)
+2026-01-17 06:18:43.761  INFO 6860 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-17 06:18:43.777  INFO 6860 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-01-17 06:18:43.863  INFO 6860 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-17 06:18:43.863  INFO 6860 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1138 ms
+2026-01-17 06:18:44.441  INFO 6860 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9001 (http) with context path ''
+2026-01-17 06:18:44.441  INFO 6860 --- [main] c.d.local_signer.LocalSignerApplication  : Started LocalSignerApplication in 2.399 seconds (JVM running for 2.867)
+2026-01-17 06:18:50.485  INFO 6860 --- [http-nio-0.0.0.0-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-17 06:18:50.485  INFO 6860 --- [http-nio-0.0.0.0-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-17 06:18:50.486  INFO 6860 --- [http-nio-0.0.0.0-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-01-17 06:18:59.139  INFO 6860 --- [http-nio-0.0.0.0-9001-exec-4] c.d.l.service.Pkcs11ProviderService      : 🔐 PKCS11 Provider initialization started
+2026-01-17 06:18:59.140  INFO 6860 --- [http-nio-0.0.0.0-9001-exec-4] c.d.l.service.Pkcs11ProviderService      : 📄 Using PKCS11 config file: C:\pkcs11\pkcs11-watchdata.cfg
+2026-01-17 06:18:59.143  INFO 6860 --- [http-nio-0.0.0.0-9001-exec-4] c.d.l.service.Pkcs11ProviderService      : ⚙️ Configuring SunPKCS11 provider...
+2026-01-17 06:18:59.904  INFO 6860 --- [http-nio-0.0.0.0-9001-exec-4] c.d.l.service.Pkcs11ProviderService      : ✅ PKCS11 provider loaded successfully: SunPKCS11-Watchdata
+2026-01-17 06:19:53.039  INFO 3024 --- [main] c.d.local_signer.LocalSignerApplication  : Starting LocalSignerApplication v0.0.1-SNAPSHOT using Java 21.0.9 on bapun with PID 3024 (D:\Downloads\local-signer\local-signer\target\local-signer-0.0.1-SNAPSHOT.jar started by DELL in D:\Downloads\local-signer\local-signer)
+2026-01-17 06:19:53.043  INFO 3024 --- [main] c.d.local_signer.LocalSignerApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-01-17 06:19:54.110  INFO 3024 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9001 (http)
+2026-01-17 06:19:54.124  INFO 3024 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-17 06:19:54.124  INFO 3024 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-01-17 06:19:54.212  INFO 3024 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-17 06:19:54.213  INFO 3024 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1099 ms
+2026-01-17 06:19:54.758  INFO 3024 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9001 (http) with context path ''
+2026-01-17 06:19:54.767  INFO 3024 --- [main] c.d.local_signer.LocalSignerApplication  : Started LocalSignerApplication in 2.292 seconds (JVM running for 2.773)
+2026-01-17 06:19:56.242  INFO 3024 --- [http-nio-0.0.0.0-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-17 06:19:56.242  INFO 3024 --- [http-nio-0.0.0.0-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-17 06:19:56.244  INFO 3024 --- [http-nio-0.0.0.0-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-01-17 06:20:12.615  INFO 3024 --- [http-nio-0.0.0.0-9001-exec-2] c.d.l.service.Pkcs11ProviderService      : 🔐 PKCS11 Provider initialization started
+2026-01-17 06:20:12.615  INFO 3024 --- [http-nio-0.0.0.0-9001-exec-2] c.d.l.service.Pkcs11ProviderService      : 📄 Using PKCS11 config file: C:\pkcs11\pkcs11-watchdata.cfg
+2026-01-17 06:20:12.630  INFO 3024 --- [http-nio-0.0.0.0-9001-exec-2] c.d.l.service.Pkcs11ProviderService      : ⚙️ Configuring SunPKCS11 provider...
+2026-01-17 06:20:13.412  INFO 3024 --- [http-nio-0.0.0.0-9001-exec-2] c.d.l.service.Pkcs11ProviderService      : ✅ PKCS11 provider loaded successfully: SunPKCS11-Watchdata
+2026-01-17 06:21:38.181  INFO 868 --- [main] c.d.local_signer.LocalSignerApplication  : Starting LocalSignerApplication v0.0.1-SNAPSHOT using Java 21.0.9 on bapun with PID 868 (D:\Downloads\local-signer\local-signer\target\local-signer-0.0.1-SNAPSHOT.jar started by DELL in D:\Downloads\local-signer\local-signer)
+2026-01-17 06:21:38.185  INFO 868 --- [main] c.d.local_signer.LocalSignerApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-01-17 06:21:57.755  INFO 6012 --- [main] c.d.local_signer.LocalSignerApplication  : Starting LocalSignerApplication v0.0.1-SNAPSHOT using Java 21.0.9 on bapun with PID 6012 (D:\Downloads\local-signer\local-signer\target\local-signer-0.0.1-SNAPSHOT.jar started by DELL in D:\Downloads\local-signer\local-signer)
+2026-01-17 06:21:57.759  INFO 6012 --- [main] c.d.local_signer.LocalSignerApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-01-17 06:21:58.855  INFO 6012 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9001 (http)
+2026-01-17 06:21:58.865  INFO 6012 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-17 06:21:58.866  INFO 6012 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-01-17 06:21:58.957  INFO 6012 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-17 06:21:58.957  INFO 6012 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1132 ms
+2026-01-17 06:21:59.492  INFO 6012 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9001 (http) with context path ''
+2026-01-17 06:21:59.503  INFO 6012 --- [main] c.d.local_signer.LocalSignerApplication  : Started LocalSignerApplication in 2.33 seconds (JVM running for 2.786)
+2026-01-17 06:21:59.715  INFO 6012 --- [http-nio-0.0.0.0-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-17 06:21:59.716  INFO 6012 --- [http-nio-0.0.0.0-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-17 06:21:59.717  INFO 6012 --- [http-nio-0.0.0.0-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-01-17 06:22:05.078  INFO 6012 --- [http-nio-0.0.0.0-9001-exec-2] c.d.l.service.Pkcs11ProviderService      : 🔐 PKCS11 Provider initialization started
+2026-01-17 06:22:05.079  INFO 6012 --- [http-nio-0.0.0.0-9001-exec-2] c.d.l.service.Pkcs11ProviderService      : 📄 Using PKCS11 config file: C:\pkcs11\pkcs11-watchdata.cfg
+2026-01-17 06:22:05.081  INFO 6012 --- [http-nio-0.0.0.0-9001-exec-2] c.d.l.service.Pkcs11ProviderService      : ⚙️ Configuring SunPKCS11 provider...
+2026-01-17 06:22:05.928  INFO 6012 --- [http-nio-0.0.0.0-9001-exec-2] c.d.l.service.Pkcs11ProviderService      : ✅ PKCS11 provider loaded successfully: SunPKCS11-Watchdata
+2026-01-17 06:23:02.143  INFO 2480 --- [main] c.d.local_signer.LocalSignerApplication  : Starting LocalSignerApplication v0.0.1-SNAPSHOT using Java 21.0.9 on bapun with PID 2480 (D:\Downloads\local-signer\local-signer\target\local-signer-0.0.1-SNAPSHOT.jar started by DELL in D:\Downloads\local-signer\local-signer)
+2026-01-17 06:23:02.148  INFO 2480 --- [main] c.d.local_signer.LocalSignerApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-01-17 06:23:03.337  INFO 2480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9001 (http)
+2026-01-17 06:23:03.349  INFO 2480 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-17 06:23:03.349  INFO 2480 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-01-17 06:23:03.453  INFO 2480 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-17 06:23:03.453  INFO 2480 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1236 ms
+2026-01-17 06:23:04.018  INFO 2480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9001 (http) with context path ''
+2026-01-17 06:23:04.037  INFO 2480 --- [main] c.d.local_signer.LocalSignerApplication  : Started LocalSignerApplication in 2.45 seconds (JVM running for 2.917)
+2026-01-17 06:23:09.430  INFO 2480 --- [http-nio-0.0.0.0-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-17 06:23:09.430  INFO 2480 --- [http-nio-0.0.0.0-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-17 06:23:09.430  INFO 2480 --- [http-nio-0.0.0.0-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-01-17 06:23:21.032  INFO 2480 --- [http-nio-0.0.0.0-9001-exec-2] c.d.l.service.Pkcs11ProviderService      : 🔐 PKCS11 Provider initialization started
+2026-01-17 06:23:21.033  INFO 2480 --- [http-nio-0.0.0.0-9001-exec-2] c.d.l.service.Pkcs11ProviderService      : 📄 Using PKCS11 config file: C:\pkcs11\pkcs11-watchdata.cfg
+2026-01-17 06:23:21.036  INFO 2480 --- [http-nio-0.0.0.0-9001-exec-2] c.d.l.service.Pkcs11ProviderService      : ⚙️ Configuring SunPKCS11 provider...
+2026-01-17 06:23:21.799  INFO 2480 --- [http-nio-0.0.0.0-9001-exec-2] c.d.l.service.Pkcs11ProviderService      : ✅ PKCS11 provider loaded successfully: SunPKCS11-Watchdata
+2026-01-17 06:27:56.699  INFO 1332 --- [main] c.d.local_signer.LocalSignerApplication  : Starting LocalSignerApplication v0.0.1-SNAPSHOT using Java 21.0.9 on bapun with PID 1332 (D:\Downloads\local-signer\local-signer\target\local-signer-0.0.1-SNAPSHOT.jar started by DELL in D:\Downloads\local-signer\local-signer)
+2026-01-17 06:27:56.705  INFO 1332 --- [main] c.d.local_signer.LocalSignerApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-01-17 06:27:57.780  INFO 1332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9001 (http)
+2026-01-17 06:27:57.796  INFO 1332 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-17 06:27:57.796  INFO 1332 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-01-17 06:27:57.883  INFO 1332 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-17 06:27:57.883  INFO 1332 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1105 ms
+2026-01-17 06:27:58.486  INFO 1332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9001 (http) with context path ''
+2026-01-17 06:27:58.495  INFO 1332 --- [main] c.d.local_signer.LocalSignerApplication  : Started LocalSignerApplication in 2.333 seconds (JVM running for 2.787)
+2026-01-17 06:28:06.047  INFO 1332 --- [http-nio-0.0.0.0-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-17 06:28:06.047  INFO 1332 --- [http-nio-0.0.0.0-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-17 06:28:06.047  INFO 1332 --- [http-nio-0.0.0.0-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-01-17 06:28:20.947  INFO 1332 --- [http-nio-0.0.0.0-9001-exec-2] c.d.l.service.Pkcs11ProviderService      : 🔐 PKCS11 Provider initialization started
+2026-01-17 06:28:20.947  INFO 1332 --- [http-nio-0.0.0.0-9001-exec-2] c.d.l.service.Pkcs11ProviderService      : 📄 Using PKCS11 config file: C:\pkcs11\pkcs11-watchdata.cfg
+2026-01-17 06:28:20.947  INFO 1332 --- [http-nio-0.0.0.0-9001-exec-2] c.d.l.service.Pkcs11ProviderService      : ⚙️ Configuring SunPKCS11 provider...
+2026-01-17 06:28:21.730  INFO 1332 --- [http-nio-0.0.0.0-9001-exec-2] c.d.l.service.Pkcs11ProviderService      : ✅ PKCS11 provider loaded successfully: SunPKCS11-Watchdata
+2026-01-17 06:43:01.026  INFO 1560 --- [main] c.d.local_signer.LocalSignerApplication  : Starting LocalSignerApplication v0.0.1-SNAPSHOT using Java 21.0.9 on bapun with PID 1560 (D:\Downloads\local-signer\local-signer\target\local-signer-0.0.1-SNAPSHOT.jar started by DELL in D:\Downloads\local-signer\local-signer)
+2026-01-17 06:43:01.030  INFO 1560 --- [main] c.d.local_signer.LocalSignerApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-01-17 06:43:02.136  INFO 1560 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9001 (http)
+2026-01-17 06:43:02.152  INFO 1560 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-17 06:43:02.153  INFO 1560 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-01-17 06:43:02.249  INFO 1560 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-17 06:43:02.249  INFO 1560 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1153 ms
+2026-01-17 06:43:02.484  WARN 1560 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'signerController' defined in URL [jar:file:/D:/Downloads/local-signer/local-signer/target/local-signer-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/com/dspace/local_signer/controller/SignerController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'signingOrchestratorService' defined in URL [jar:file:/D:/Downloads/local-signer/local-signer/target/local-signer-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/com/dspace/local_signer/service/SigningOrchestratorService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'pkcs11ProviderService' defined in URL [jar:file:/D:/Downloads/local-signer/local-signer/target/local-signer-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/com/dspace/local_signer/service/Pkcs11ProviderService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.dspace.local_signer.service.Pkcs11ProviderService]: Constructor threw exception; nested exception is java.lang.NullPointerException
+2026-01-17 06:43:02.484  INFO 1560 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-01-17 06:43:02.500  INFO 1560 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2026-01-17 06:43:02.530 ERROR 1560 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'signerController' defined in URL [jar:file:/D:/Downloads/local-signer/local-signer/target/local-signer-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/com/dspace/local_signer/controller/SignerController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'signingOrchestratorService' defined in URL [jar:file:/D:/Downloads/local-signer/local-signer/target/local-signer-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/com/dspace/local_signer/service/SigningOrchestratorService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'pkcs11ProviderService' defined in URL [jar:file:/D:/Downloads/local-signer/local-signer/target/local-signer-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/com/dspace/local_signer/service/Pkcs11ProviderService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.dspace.local_signer.service.Pkcs11ProviderService]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:801) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:224) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:929) ~[spring-context-5.3.31.jar!/:5.3.31]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:591) ~[spring-context-5.3.31.jar!/:5.3.31]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.18.jar!/:2.7.18]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732) ~[spring-boot-2.7.18.jar!/:2.7.18]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:409) ~[spring-boot-2.7.18.jar!/:2.7.18]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.18.jar!/:2.7.18]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300) ~[spring-boot-2.7.18.jar!/:2.7.18]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1289) ~[spring-boot-2.7.18.jar!/:2.7.18]
+	at com.dspace.local_signer.LocalSignerApplication.main(LocalSignerApplication.java:13) ~[classes!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49) ~[local-signer-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:108) ~[local-signer-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58) ~[local-signer-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:65) ~[local-signer-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'signingOrchestratorService' defined in URL [jar:file:/D:/Downloads/local-signer/local-signer/target/local-signer-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/com/dspace/local_signer/service/SigningOrchestratorService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'pkcs11ProviderService' defined in URL [jar:file:/D:/Downloads/local-signer/local-signer/target/local-signer-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/com/dspace/local_signer/service/Pkcs11ProviderService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.dspace.local_signer.service.Pkcs11ProviderService]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:801) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:224) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:911) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	... 25 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'pkcs11ProviderService' defined in URL [jar:file:/D:/Downloads/local-signer/local-signer/target/local-signer-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/com/dspace/local_signer/service/Pkcs11ProviderService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.dspace.local_signer.service.Pkcs11ProviderService]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:911) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	... 39 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.dspace.local_signer.service.Pkcs11ProviderService]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:226) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	... 51 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:233) ~[na:na]
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:215) ~[na:na]
+	at java.base/java.nio.file.Path.of(Path.java:148) ~[na:na]
+	at com.dspace.local_signer.service.Pkcs11ProviderService.<init>(Pkcs11ProviderService.java:17) ~[classes!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:213) ~[spring-beans-5.3.31.jar!/:5.3.31]
+	... 53 common frames omitted
+
+2026-01-17 06:48:13.269  INFO 7636 --- [main] c.d.local_signer.LocalSignerApplication  : Starting LocalSignerApplication v0.0.1-SNAPSHOT using Java 21.0.9 on bapun with PID 7636 (D:\Downloads\local-signer\local-signer\target\local-signer-0.0.1-SNAPSHOT.jar started by DELL in D:\Downloads\local-signer\local-signer)
+2026-01-17 06:48:13.277  INFO 7636 --- [main] c.d.local_signer.LocalSignerApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-01-17 06:48:14.397  INFO 7636 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9001 (http)
+2026-01-17 06:48:14.410  INFO 7636 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-17 06:48:14.410  INFO 7636 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-01-17 06:48:14.494  INFO 7636 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-17 06:48:14.495  INFO 7636 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1147 ms
+2026-01-17 06:48:15.081  INFO 7636 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9001 (http) with context path ''
+2026-01-17 06:48:15.094  INFO 7636 --- [main] c.d.local_signer.LocalSignerApplication  : Started LocalSignerApplication in 2.385 seconds (JVM running for 2.828)
+2026-01-17 06:48:17.340  INFO 7636 --- [http-nio-0.0.0.0-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-17 06:48:17.341  INFO 7636 --- [http-nio-0.0.0.0-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-17 06:48:17.342  INFO 7636 --- [http-nio-0.0.0.0-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-01-17 06:48:36.050  INFO 7636 --- [http-nio-0.0.0.0-9001-exec-3] c.d.l.service.Pkcs11ProviderService      : 🔐 PKCS11 Provider initialization started
+2026-01-17 06:48:36.050  INFO 7636 --- [http-nio-0.0.0.0-9001-exec-3] c.d.l.service.Pkcs11ProviderService      : 📄 Using PKCS11 config file: C:\pkcs11\pkcs11-watchdata.cfg
+2026-01-17 06:48:36.050  INFO 7636 --- [http-nio-0.0.0.0-9001-exec-3] c.d.l.service.Pkcs11ProviderService      : ⚙️ Configuring SunPKCS11 provider...
+2026-01-17 06:48:36.840  INFO 7636 --- [http-nio-0.0.0.0-9001-exec-3] c.d.l.service.Pkcs11ProviderService      : ✅ PKCS11 provider loaded successfully: SunPKCS11-Watchdata
+2026-01-17 06:49:15.396  INFO 7636 --- [http-nio-0.0.0.0-9001-exec-6] c.d.l.service.Pkcs11ProviderService      : 🔐 PKCS11 Provider initialization started
+2026-01-17 06:49:15.396  INFO 7636 --- [http-nio-0.0.0.0-9001-exec-6] c.d.l.service.Pkcs11ProviderService      : ✅ PKCS11 provider already loaded: SunPKCS11-Watchdata
+2026-01-17 06:49:15.396 ERROR 7636 --- [http-nio-0.0.0.0-9001-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.security.ProviderException: Token has been removed] with root cause
+
+java.security.ProviderException: Token has been removed
+	at jdk.crypto.cryptoki/sun.security.pkcs11.Session.id(Session.java:87) ~[jdk.crypto.cryptoki:na]
+	at jdk.crypto.cryptoki/sun.security.pkcs11.SessionManager.ensureValid(SessionManager.java:159) ~[jdk.crypto.cryptoki:na]
+	at jdk.crypto.cryptoki/sun.security.pkcs11.SessionManager.getOpSession(SessionManager.java:142) ~[jdk.crypto.cryptoki:na]
+	at jdk.crypto.cryptoki/sun.security.pkcs11.Token.getOpSession(Token.java:318) ~[jdk.crypto.cryptoki:na]
+	at jdk.crypto.cryptoki/sun.security.pkcs11.Token.isLoggedInNow(Token.java:227) ~[jdk.crypto.cryptoki:na]
+	at jdk.crypto.cryptoki/sun.security.pkcs11.SunPKCS11.login(SunPKCS11.java:1628) ~[jdk.crypto.cryptoki:na]
+	at jdk.crypto.cryptoki/sun.security.pkcs11.P11KeyStore.login(P11KeyStore.java:878) ~[jdk.crypto.cryptoki:na]
+	at jdk.crypto.cryptoki/sun.security.pkcs11.P11KeyStore.engineLoad(P11KeyStore.java:765) ~[jdk.crypto.cryptoki:na]
+	at java.base/java.security.KeyStore.load(KeyStore.java:1500) ~[na:na]
+	at com.dspace.local_signer.service.UsbTokenKeyService.loadToken(UsbTokenKeyService.java:19) ~[classes!/:0.0.1-SNAPSHOT]
+	at com.dspace.local_signer.service.SigningOrchestratorService.signPdf(SigningOrchestratorService.java:29) ~[classes!/:0.0.1-SNAPSHOT]
+	at com.dspace.local_signer.controller.SignerController.sign(SignerController.java:60) ~[classes!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-01-17 06:49:28.477  INFO 7636 --- [http-nio-0.0.0.0-9001-exec-9] c.d.l.service.Pkcs11ProviderService      : 🔐 PKCS11 Provider initialization started
+2026-01-17 06:49:28.477  INFO 7636 --- [http-nio-0.0.0.0-9001-exec-9] c.d.l.service.Pkcs11ProviderService      : ✅ PKCS11 provider already loaded: SunPKCS11-Watchdata
+2026-01-17 06:49:28.477 ERROR 7636 --- [http-nio-0.0.0.0-9001-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.security.KeyStoreException: PKCS11 not found] with root cause
+
+java.security.NoSuchAlgorithmException: no such algorithm: PKCS11 for provider SunPKCS11-Watchdata
+	at java.base/sun.security.jca.GetInstance.getService(GetInstance.java:101) ~[na:na]
+	at java.base/sun.security.jca.GetInstance.getInstance(GetInstance.java:218) ~[na:na]
+	at java.base/java.security.Security.getImpl(Security.java:684) ~[na:na]
+	at java.base/java.security.KeyStore.getInstance(KeyStore.java:964) ~[na:na]
+	at com.dspace.local_signer.service.UsbTokenKeyService.loadToken(UsbTokenKeyService.java:18) ~[classes!/:0.0.1-SNAPSHOT]
+	at com.dspace.local_signer.service.SigningOrchestratorService.signPdf(SigningOrchestratorService.java:29) ~[classes!/:0.0.1-SNAPSHOT]
+	at com.dspace.local_signer.controller.SignerController.sign(SignerController.java:60) ~[classes!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-01-17 06:49:49.532  INFO 7636 --- [http-nio-0.0.0.0-9001-exec-1] c.d.l.service.Pkcs11ProviderService      : 🔐 PKCS11 Provider initialization started
+2026-01-17 06:49:49.532  INFO 7636 --- [http-nio-0.0.0.0-9001-exec-1] c.d.l.service.Pkcs11ProviderService      : ✅ PKCS11 provider already loaded: SunPKCS11-Watchdata
+2026-01-17 06:49:49.532 ERROR 7636 --- [http-nio-0.0.0.0-9001-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.security.KeyStoreException: PKCS11 not found] with root cause
+
+java.security.NoSuchAlgorithmException: no such algorithm: PKCS11 for provider SunPKCS11-Watchdata
+	at java.base/sun.security.jca.GetInstance.getService(GetInstance.java:101) ~[na:na]
+	at java.base/sun.security.jca.GetInstance.getInstance(GetInstance.java:218) ~[na:na]
+	at java.base/java.security.Security.getImpl(Security.java:684) ~[na:na]
+	at java.base/java.security.KeyStore.getInstance(KeyStore.java:964) ~[na:na]
+	at com.dspace.local_signer.service.UsbTokenKeyService.loadToken(UsbTokenKeyService.java:18) ~[classes!/:0.0.1-SNAPSHOT]
+	at com.dspace.local_signer.service.SigningOrchestratorService.signPdf(SigningOrchestratorService.java:29) ~[classes!/:0.0.1-SNAPSHOT]
+	at com.dspace.local_signer.controller.SignerController.sign(SignerController.java:60) ~[classes!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-01-17 06:52:33.528  INFO 7636 --- [http-nio-0.0.0.0-9001-exec-5] c.d.l.service.Pkcs11ProviderService      : 🔐 PKCS11 Provider initialization started
+2026-01-17 06:52:33.528  INFO 7636 --- [http-nio-0.0.0.0-9001-exec-5] c.d.l.service.Pkcs11ProviderService      : ✅ PKCS11 provider already loaded: SunPKCS11-Watchdata
+2026-01-17 06:52:33.528 ERROR 7636 --- [http-nio-0.0.0.0-9001-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.security.KeyStoreException: PKCS11 not found] with root cause
+
+java.security.NoSuchAlgorithmException: no such algorithm: PKCS11 for provider SunPKCS11-Watchdata
+	at java.base/sun.security.jca.GetInstance.getService(GetInstance.java:101) ~[na:na]
+	at java.base/sun.security.jca.GetInstance.getInstance(GetInstance.java:218) ~[na:na]
+	at java.base/java.security.Security.getImpl(Security.java:684) ~[na:na]
+	at java.base/java.security.KeyStore.getInstance(KeyStore.java:964) ~[na:na]
+	at com.dspace.local_signer.service.UsbTokenKeyService.loadToken(UsbTokenKeyService.java:18) ~[classes!/:0.0.1-SNAPSHOT]
+	at com.dspace.local_signer.service.SigningOrchestratorService.signPdf(SigningOrchestratorService.java:29) ~[classes!/:0.0.1-SNAPSHOT]
+	at com.dspace.local_signer.controller.SignerController.sign(SignerController.java:60) ~[classes!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-01-17 06:53:01.985  INFO 10384 --- [main] c.d.local_signer.LocalSignerApplication  : Starting LocalSignerApplication v0.0.1-SNAPSHOT using Java 21.0.9 on bapun with PID 10384 (D:\Downloads\local-signer\local-signer\target\local-signer-0.0.1-SNAPSHOT.jar started by DELL in D:\Downloads\local-signer\local-signer)
+2026-01-17 06:53:01.988  INFO 10384 --- [main] c.d.local_signer.LocalSignerApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-01-17 06:53:03.134  INFO 10384 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9001 (http)
+2026-01-17 06:53:03.149  INFO 10384 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-17 06:53:03.150  INFO 10384 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-01-17 06:53:03.248  INFO 10384 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-17 06:53:03.249  INFO 10384 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1185 ms
+2026-01-17 06:53:03.825  INFO 10384 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9001 (http) with context path ''
+2026-01-17 06:53:03.843  INFO 10384 --- [main] c.d.local_signer.LocalSignerApplication  : Started LocalSignerApplication in 2.477 seconds (JVM running for 2.922)
+2026-01-17 06:53:07.498  INFO 10384 --- [http-nio-0.0.0.0-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-17 06:53:07.498  INFO 10384 --- [http-nio-0.0.0.0-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-17 06:53:07.502  INFO 10384 --- [http-nio-0.0.0.0-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2026-01-17 06:53:09.393  INFO 10384 --- [http-nio-0.0.0.0-9001-exec-1] c.d.l.service.Pkcs11ProviderService      : 🔐 PKCS11 Provider initialization started
+2026-01-17 06:53:09.394  INFO 10384 --- [http-nio-0.0.0.0-9001-exec-1] c.d.l.service.Pkcs11ProviderService      : 📄 Using PKCS11 config file: C:\pkcs11\pkcs11-watchdata.cfg
+2026-01-17 06:53:09.395  INFO 10384 --- [http-nio-0.0.0.0-9001-exec-1] c.d.l.service.Pkcs11ProviderService      : ⚙️ Configuring SunPKCS11 provider...
+2026-01-17 06:53:10.111  INFO 10384 --- [http-nio-0.0.0.0-9001-exec-1] c.d.l.service.Pkcs11ProviderService      : ✅ PKCS11 provider loaded successfully: SunPKCS11-Watchdata
+2026-01-17 06:53:31.201  INFO 10384 --- [http-nio-0.0.0.0-9001-exec-3] c.d.l.service.Pkcs11ProviderService      : 🔐 PKCS11 Provider initialization started
+2026-01-17 06:53:31.201  INFO 10384 --- [http-nio-0.0.0.0-9001-exec-3] c.d.l.service.Pkcs11ProviderService      : ✅ PKCS11 provider already loaded: SunPKCS11-Watchdata
+2026-01-17 06:53:31.211 ERROR 10384 --- [http-nio-0.0.0.0-9001-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.security.ProviderException: Token has been removed] with root cause
+
+java.security.ProviderException: Token has been removed
+	at jdk.crypto.cryptoki/sun.security.pkcs11.Session.id(Session.java:87) ~[jdk.crypto.cryptoki:na]
+	at jdk.crypto.cryptoki/sun.security.pkcs11.SessionManager.ensureValid(SessionManager.java:159) ~[jdk.crypto.cryptoki:na]
+	at jdk.crypto.cryptoki/sun.security.pkcs11.SessionManager.getOpSession(SessionManager.java:142) ~[jdk.crypto.cryptoki:na]
+	at jdk.crypto.cryptoki/sun.security.pkcs11.Token.getOpSession(Token.java:318) ~[jdk.crypto.cryptoki:na]
+	at jdk.crypto.cryptoki/sun.security.pkcs11.Token.isLoggedInNow(Token.java:227) ~[jdk.crypto.cryptoki:na]
+	at jdk.crypto.cryptoki/sun.security.pkcs11.SunPKCS11.login(SunPKCS11.java:1628) ~[jdk.crypto.cryptoki:na]
+	at jdk.crypto.cryptoki/sun.security.pkcs11.P11KeyStore.login(P11KeyStore.java:878) ~[jdk.crypto.cryptoki:na]
+	at jdk.crypto.cryptoki/sun.security.pkcs11.P11KeyStore.engineLoad(P11KeyStore.java:765) ~[jdk.crypto.cryptoki:na]
+	at java.base/java.security.KeyStore.load(KeyStore.java:1500) ~[na:na]
+	at com.dspace.local_signer.service.UsbTokenKeyService.loadToken(UsbTokenKeyService.java:19) ~[classes!/:0.0.1-SNAPSHOT]
+	at com.dspace.local_signer.service.SigningOrchestratorService.signPdf(SigningOrchestratorService.java:29) ~[classes!/:0.0.1-SNAPSHOT]
+	at com.dspace.local_signer.controller.SignerController.sign(SignerController.java:60) ~[classes!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-01-17 06:53:44.669  INFO 10384 --- [http-nio-0.0.0.0-9001-exec-4] c.d.l.service.Pkcs11ProviderService      : 🔐 PKCS11 Provider initialization started
+2026-01-17 06:53:44.669  INFO 10384 --- [http-nio-0.0.0.0-9001-exec-4] c.d.l.service.Pkcs11ProviderService      : ✅ PKCS11 provider already loaded: SunPKCS11-Watchdata
+2026-01-17 06:53:44.669 ERROR 10384 --- [http-nio-0.0.0.0-9001-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.security.KeyStoreException: PKCS11 not found] with root cause
+
+java.security.NoSuchAlgorithmException: no such algorithm: PKCS11 for provider SunPKCS11-Watchdata
+	at java.base/sun.security.jca.GetInstance.getService(GetInstance.java:101) ~[na:na]
+	at java.base/sun.security.jca.GetInstance.getInstance(GetInstance.java:218) ~[na:na]
+	at java.base/java.security.Security.getImpl(Security.java:684) ~[na:na]
+	at java.base/java.security.KeyStore.getInstance(KeyStore.java:964) ~[na:na]
+	at com.dspace.local_signer.service.UsbTokenKeyService.loadToken(UsbTokenKeyService.java:18) ~[classes!/:0.0.1-SNAPSHOT]
+	at com.dspace.local_signer.service.SigningOrchestratorService.signPdf(SigningOrchestratorService.java:29) ~[classes!/:0.0.1-SNAPSHOT]
+	at com.dspace.local_signer.controller.SignerController.sign(SignerController.java:60) ~[classes!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-01-17 06:54:17.078  INFO 6728 --- [main] c.d.local_signer.LocalSignerApplication  : Starting LocalSignerApplication v0.0.1-SNAPSHOT using Java 21.0.9 on bapun with PID 6728 (D:\Downloads\local-signer\local-signer\target\local-signer-0.0.1-SNAPSHOT.jar started by DELL in D:\Downloads\local-signer\local-signer)
+2026-01-17 06:54:17.081  INFO 6728 --- [main] c.d.local_signer.LocalSignerApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-01-17 06:54:18.152  INFO 6728 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9001 (http)
+2026-01-17 06:54:18.152  INFO 6728 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-17 06:54:18.168  INFO 6728 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-01-17 06:54:18.254  INFO 6728 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-17 06:54:18.254  INFO 6728 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1105 ms
+2026-01-17 06:54:18.843  INFO 6728 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9001 (http) with context path ''
+2026-01-17 06:54:18.843  INFO 6728 --- [main] c.d.local_signer.LocalSignerApplication  : Started LocalSignerApplication in 2.305 seconds (JVM running for 2.749)
+2026-01-17 06:54:22.515  INFO 6728 --- [http-nio-0.0.0.0-9001-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-17 06:54:22.517  INFO 6728 --- [http-nio-0.0.0.0-9001-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-17 06:54:22.517  INFO 6728 --- [http-nio-0.0.0.0-9001-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-01-17 06:54:24.233  INFO 6728 --- [http-nio-0.0.0.0-9001-exec-3] c.d.l.service.Pkcs11ProviderService      : 🔐 PKCS11 Provider initialization started
+2026-01-17 06:54:24.234  INFO 6728 --- [http-nio-0.0.0.0-9001-exec-3] c.d.l.service.Pkcs11ProviderService      : 📄 Using PKCS11 config file: C:\pkcs11\pkcs11-watchdata.cfg
+2026-01-17 06:54:24.236  INFO 6728 --- [http-nio-0.0.0.0-9001-exec-3] c.d.l.service.Pkcs11ProviderService      : ⚙️ Configuring SunPKCS11 provider...
+2026-01-17 06:54:25.009  INFO 6728 --- [http-nio-0.0.0.0-9001-exec-3] c.d.l.service.Pkcs11ProviderService      : ✅ PKCS11 provider loaded successfully: SunPKCS11-Watchdata
+2026-01-17 07:00:38.331  INFO 1784 --- [main] c.d.local_signer.LocalSignerApplication  : Starting LocalSignerApplication v0.0.1-SNAPSHOT using Java 21.0.9 on bapun with PID 1784 (D:\Downloads\local-signer\local-signer\target\local-signer-0.0.1-SNAPSHOT.jar started by DELL in D:\Downloads\local-signer\local-signer)
+2026-01-17 07:00:38.336  INFO 1784 --- [main] c.d.local_signer.LocalSignerApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-01-17 07:00:39.470  INFO 1784 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9001 (http)
+2026-01-17 07:00:39.486  INFO 1784 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-17 07:00:39.486  INFO 1784 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-01-17 07:00:39.575  INFO 1784 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-17 07:00:39.576  INFO 1784 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1148 ms
+2026-01-17 07:00:40.149  INFO 1784 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9001 (http) with context path ''
+2026-01-17 07:00:40.149  INFO 1784 --- [main] c.d.local_signer.LocalSignerApplication  : Started LocalSignerApplication in 2.407 seconds (JVM running for 2.847)
+2026-01-17 07:00:43.827  INFO 1784 --- [http-nio-0.0.0.0-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-17 07:00:43.827  INFO 1784 --- [http-nio-0.0.0.0-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-17 07:00:43.827  INFO 1784 --- [http-nio-0.0.0.0-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-01-17 07:00:52.680  INFO 1784 --- [http-nio-0.0.0.0-9001-exec-7] c.d.l.service.Pkcs11ProviderService      : 🔐 Initializing PKCS11 provider
+2026-01-17 07:00:53.473  INFO 1784 --- [http-nio-0.0.0.0-9001-exec-7] c.d.l.service.Pkcs11ProviderService      : ✅ PKCS11 provider loaded successfully: SunPKCS11-Watchdata
+2026-01-17 07:01:13.307  INFO 1784 --- [http-nio-0.0.0.0-9001-exec-5] c.d.l.service.Pkcs11ProviderService      : 🔐 Initializing PKCS11 provider
+2026-01-17 07:01:13.307  INFO 1784 --- [http-nio-0.0.0.0-9001-exec-5] c.d.l.service.Pkcs11ProviderService      : ♻ Removing existing provider: SunPKCS11-Watchdata
+2026-01-17 07:01:13.606  INFO 1784 --- [http-nio-0.0.0.0-9001-exec-5] c.d.l.service.Pkcs11ProviderService      : ✅ PKCS11 provider loaded successfully: SunPKCS11-Watchdata
+2026-01-17 07:01:13.613 ERROR 1784 --- [http-nio-0.0.0.0-9001-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.security.KeyStoreException: PKCS11 not found] with root cause
+
+java.security.NoSuchAlgorithmException: no such algorithm: PKCS11 for provider SunPKCS11-Watchdata
+	at java.base/sun.security.jca.GetInstance.getService(GetInstance.java:101) ~[na:na]
+	at java.base/sun.security.jca.GetInstance.getInstance(GetInstance.java:218) ~[na:na]
+	at java.base/java.security.Security.getImpl(Security.java:684) ~[na:na]
+	at java.base/java.security.KeyStore.getInstance(KeyStore.java:964) ~[na:na]
+	at com.dspace.local_signer.service.UsbTokenKeyService.loadToken(UsbTokenKeyService.java:18) ~[classes!/:0.0.1-SNAPSHOT]
+	at com.dspace.local_signer.service.SigningOrchestratorService.signPdf(SigningOrchestratorService.java:29) ~[classes!/:0.0.1-SNAPSHOT]
+	at com.dspace.local_signer.controller.SignerController.sign(SignerController.java:60) ~[classes!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.31.jar!/:5.3.31]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar!/:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-01-17 07:01:26.028  INFO 1784 --- [http-nio-0.0.0.0-9001-exec-6] c.d.l.service.Pkcs11ProviderService      : 🔐 Initializing PKCS11 provider
+2026-01-17 07:01:26.030  INFO 1784 --- [http-nio-0.0.0.0-9001-exec-6] c.d.l.service.Pkcs11ProviderService      : ♻ Removing existing provider: SunPKCS11-Watchdata
+2026-01-17 07:01:26.673  INFO 1784 --- [http-nio-0.0.0.0-9001-exec-6] c.d.l.service.Pkcs11ProviderService      : ✅ PKCS11 provider loaded successfully: SunPKCS11-Watchdata
+2026-01-17 07:22:07.201  INFO 1784 --- [http-nio-0.0.0.0-9001-exec-10] c.d.l.service.Pkcs11ProviderService      : 🔐 Initializing PKCS11 provider
+2026-01-17 07:22:07.202  INFO 1784 --- [http-nio-0.0.0.0-9001-exec-10] c.d.l.service.Pkcs11ProviderService      : ♻ Removing existing provider: SunPKCS11-Watchdata
+2026-01-17 07:22:07.774  INFO 1784 --- [http-nio-0.0.0.0-9001-exec-10] c.d.l.service.Pkcs11ProviderService      : ✅ PKCS11 provider loaded successfully: SunPKCS11-Watchdata
+2026-01-17 07:58:45.105  INFO 12156 --- [main] c.d.local_signer.LocalSignerApplication  : Starting LocalSignerApplication v0.0.1-SNAPSHOT using Java 21.0.9 on bapun with PID 12156 (D:\Downloads\local-signer\local-signer\target\local-signer-0.0.1-SNAPSHOT.jar started by DELL in D:\Downloads\local-signer\local-signer)
+2026-01-17 07:58:45.110  INFO 12156 --- [main] c.d.local_signer.LocalSignerApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-01-17 07:58:46.174  INFO 12156 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9001 (http)
+2026-01-17 07:58:46.195  INFO 12156 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-17 07:58:46.195  INFO 12156 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-01-17 07:58:46.289  INFO 12156 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-17 07:58:46.289  INFO 12156 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1109 ms
+2026-01-17 07:58:46.874  INFO 12156 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9001 (http) with context path ''
+2026-01-17 07:58:46.890  INFO 12156 --- [main] c.d.local_signer.LocalSignerApplication  : Started LocalSignerApplication in 2.308 seconds (JVM running for 2.745)
+2026-01-17 07:59:05.909  INFO 12156 --- [http-nio-0.0.0.0-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-17 07:59:05.909  INFO 12156 --- [http-nio-0.0.0.0-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-17 07:59:05.925  INFO 12156 --- [http-nio-0.0.0.0-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2026-01-17 08:01:52.833  INFO 13276 --- [main] c.d.local_signer.LocalSignerApplication  : Starting LocalSignerApplication v0.0.1-SNAPSHOT using Java 21.0.9 on bapun with PID 13276 (D:\Downloads\local-signer\local-signer\target\local-signer-0.0.1-SNAPSHOT.jar started by DELL in D:\Downloads\local-signer\local-signer)
+2026-01-17 08:01:52.840  INFO 13276 --- [main] c.d.local_signer.LocalSignerApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-01-17 08:01:53.949  INFO 13276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9001 (http)
+2026-01-17 08:01:53.959  INFO 13276 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-17 08:01:53.960  INFO 13276 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-01-17 08:01:54.034  INFO 13276 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-17 08:01:54.035  INFO 13276 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1120 ms
+2026-01-17 08:01:54.642  INFO 13276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9001 (http) with context path ''
+2026-01-17 08:01:54.654  INFO 13276 --- [main] c.d.local_signer.LocalSignerApplication  : Started LocalSignerApplication in 2.38 seconds (JVM running for 2.827)
+2026-01-17 08:01:57.752  INFO 13276 --- [http-nio-0.0.0.0-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-17 08:01:57.753  INFO 13276 --- [http-nio-0.0.0.0-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-17 08:01:57.754  INFO 13276 --- [http-nio-0.0.0.0-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-01-17 08:22:58.951  INFO 3260 --- [main] c.d.local_signer.LocalSignerApplication  : Starting LocalSignerApplication v0.0.1-SNAPSHOT using Java 21.0.9 on bapun with PID 3260 (D:\Downloads\local-signer\local-signer\target\local-signer-0.0.1-SNAPSHOT.jar started by DELL in D:\Downloads\local-signer\local-signer)
+2026-01-17 08:22:58.954  INFO 3260 --- [main] c.d.local_signer.LocalSignerApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-01-17 08:23:00.044  INFO 3260 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9001 (http)
+2026-01-17 08:23:00.069  INFO 3260 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-17 08:23:00.069  INFO 3260 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-01-17 08:23:00.158  INFO 3260 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-17 08:23:00.159  INFO 3260 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1118 ms
+2026-01-17 08:23:00.713  INFO 3260 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9001 (http) with context path ''
+2026-01-17 08:23:00.733  INFO 3260 --- [main] c.d.local_signer.LocalSignerApplication  : Started LocalSignerApplication in 2.357 seconds (JVM running for 2.804)
+2026-01-17 08:23:08.195  INFO 3260 --- [http-nio-0.0.0.0-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-17 08:23:08.195  INFO 3260 --- [http-nio-0.0.0.0-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-17 08:23:08.195  INFO 3260 --- [http-nio-0.0.0.0-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
